@@ -1,0 +1,170 @@
+/*
+-- Estilos CSS - Website da Empresa
+*/
+ 
+/*
+-- Padrões e Reset
+*/
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: normal;
+
+}
+/*
+-- Tipografia e Cores
+*/
+body
+{
+color:#333;
+}
+body, input, select, textarea 
+{
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", 
+    "DejaVu Sans", 
+    "Bitstream Vera Sans", "Trebuchet MS",
+     Verdana, "Verdana Ref", sans-serif;
+}
+a:link
+{
+    color:#0f599f;
+}
+a:visited
+{
+    color:#666;
+}
+a:hover
+{
+    color:#000;
+    text-decoration: none;
+}
+a:focus
+{
+    outline: 1px dotted;
+}
+a:active
+{
+    color: #f00;
+}
+
+p 
+{
+    font-size: 16px
+    margin-bottom, 1.5em;
+    line-height: 1.4em;
+}
+
+#conteudo-principal h1
+{
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+ #conteudo-secundario h1
+{
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    
+}
+
+#conteudo-secundario p
+{
+    font-size: 14px;
+    
+}
+
+#menu-principal ul
+{
+    font-size: 16px;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#menu-principal ul
+{
+    list-style-type: square;
+}
+
+#menu-principal li
+{
+    margin-bottom: 0.3em;
+}
+
+/*
+-- Estrutura
+*/
+ #foto-principal {
+     height: 200px;
+     background: #b6b6b6 url(../imagens/foto_principal.jpg) no-repeat center top;
+     clear: both;
+ }
+
+ #conteudo-secundario {
+     width: 280px;
+ }
+
+ #cabecalho, #conteudo, #rodape {
+     width: 960px;
+     margin: 0 auto;
+ }
+
+#cabecalho {
+    position: relative;
+}
+
+ #logo {
+     padding: 10px 0;
+     display: block;
+     float: left;
+ }
+
+ #logo img {
+     display: block;
+ }
+
+ #menu-principal {
+     position: absolute;
+     top: 26px;
+     right: 0;
+ }
+ #menu-principal li {
+     display: inline;
+ }
+
+ #menu-principal a {
+     display: block;
+     float: left;
+     font-size: 18px;
+     text-decoration: none;
+     color: #333333;
+     margin-left: 32px;
+ }
+
+ #menu-principal a:hover {
+     color: forestgreen;
+
+ } 
+ 
+ #menu-principal a.ativo {
+     color: #0f599f;
+ }
+
+ #menu-principal a.ativo {
+     font-weight: bold;
+ }
+
+
+/*
+-- Estilos espec�ficos de Se��o
+*/
+ 
+/*
+-- Formul�rios
+*/
+ 
+/*
+-- Tabelas
+*/
+ 
+/*
+-- Classes de Uso Geral
+*/
